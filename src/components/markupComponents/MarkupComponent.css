@@ -17,6 +17,9 @@
 .output-area {
     min-height: 174px;
 }
+.output {
+    width: 80%;
+}
 .input textarea:focus, .output textarea:focus {
     outline: none !important;
     border: 1px solid #E80002;
@@ -37,4 +40,7 @@
 }
 .expand {
     margin-right: 10px;
+}
+.output-area div {
+    overflow-wrap: break-word;
 }
