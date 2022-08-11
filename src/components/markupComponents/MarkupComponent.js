@@ -1,5 +1,6 @@
 import React from 'react';
 import './MarkupComponent.css';
+import { marked } from 'marked';
 
 function MarkupComponent() {
   return (
@@ -24,7 +25,8 @@ function MarkupComponent() {
                     <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
                 </div>
             </div>
-            <textarea rows="10"></textarea>
+            <div className='output-area'>
+            </div>
         </div>
     </>
   )
