@@ -1,6 +1,9 @@
+import MarkupComponent from "./components/markupComponents/MarkupComponent";
 
 function App() {
-  return null;
+  return (
+    <MarkupComponent />
+  );
 }
 
 export default App;
