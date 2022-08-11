@@ -4,5 +4,6 @@
     box-sizing: border-box;
 }
 body {
+    font-family: 'Source Code Pro', monospace;
     background-color: #FF4A89;
 }
